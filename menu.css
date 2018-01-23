@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300i,400,700,700i');
+
 .slide-bar {
     width: 50%; /* Width of the outside container */
 }
@@ -34,4 +36,54 @@
     height: 25px; /* Slider handle height */
     background: #4CAF50; /* Green background */
     cursor: pointer; /* Cursor on hover */
+}
+
+h1 {
+  background-color: black;
+  color: red;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+}
+
+#options {
+  background-color: black;
+  color: yellow;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  padding: 20px;
+  height: 100vh;
+}
+
+.team-choice select {
+  background-color: white;
+}
+
+.slide-bar {
+  align-content: left;
+}
+
+a {
+  margin-top: 20px;
+  background-color: yellow;
+  display: flex;
+  border: 1px solid white;
+  align-self: center;
+  border-radius: 500px;
+  height: 25%;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: red;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+#temp {
+  margin-bottom: 25px;
 }
