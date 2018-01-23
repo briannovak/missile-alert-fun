@@ -1,4 +1,4 @@
-const mymap = L.map("mapid").setView([39.7562946,-105.0058066], 15);
+const mymap = L.map("mapid").setView([39.7562946,-105.0058066], 14);
 
 L.tileLayer(
   "https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoia21raW5nZG9uIiwiYSI6ImNqYjJmNHdmdjdsdmgycW5xbG95bnF0bjUifQ.WYLCkTZjGgyymjCJK--SYg",
@@ -15,17 +15,17 @@ L.tileLayer(
 const personIcon = L.icon({
   iconUrl: "/person.png",
   shadowUrl: "/personshadow.png",
-  iconSize: [100, 130],
-  shadowSize: [100, 100],
-  iconAnchor: [50, 110],
-  shadowAnchor: [10, 55],
+  iconSize: [50, 75],
+  shadowSize: [50, 50],
+  iconAnchor: [0, 50],
+  shadowAnchor: [-20, 15],
   popupAnchor: [10, -20]
 });
 
 const rocketIcon = L.icon({
   iconUrl: "/Missile.png",
-  iconSize: [100, 100],
-  iconAnchor: [50, 110],
+  iconSize: [50, 50],
+  iconAnchor: [30, 70],
   popupAnchor: [10, -20]
 });
 

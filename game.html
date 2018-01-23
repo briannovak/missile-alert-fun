@@ -5,6 +5,7 @@
     <!-- <link rel="stylesheet" href="/reset.css"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="/game.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
@@ -17,8 +18,14 @@
   <body>
     <div class='timer-container center-align'>
       Countdown to missile launch: <span id="time">60:00</span></div>
+    <div id="clue">
+      <h1>Clue 1</h1>
+      <p>The password for missile control starts with a number at Coors field. Get to Coors field as soon as you can.</p>
+    </div>
     <div id="mapid"></div>
-    <script src="./timer.js" type="text/javascript"></script>
+    <a href="./game-puzzle.html"><button class='waves-effect waves-light btn red'>I've Arrived</button></a>
     <script src="./map.js" type="text/javascript"></script>
+    <script src="./timer.js" type="text/javascript"></script>
+
   </body>
 </html>
