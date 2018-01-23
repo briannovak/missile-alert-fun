@@ -1,7 +1,12 @@
 span {
-  color: red
+  color: red;
+  font-size: 1.2rem;
 }
 
-div {
-  color: black
+.timer-container {
+  padding: .6rem;
+  background-color: black;
+  border-color: yellow;
+  color: yellow;
+  align-self: center
 }
