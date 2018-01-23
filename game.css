@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #mapid {
   height: 40vh;
   width: 90vw;
@@ -10,7 +10,8 @@
 
 .leaflet-popup-content-wrapper {
   border: solid yellow 3px;
-=======
+}
+
 span {
   color: red;
   font-size: 1.2rem;
@@ -22,5 +23,4 @@ span {
   border-color: yellow;
   color: yellow;
   align-self: center
->>>>>>> 3bc971b06b22a6a0879f223d3221ad955e3627bf
 }
