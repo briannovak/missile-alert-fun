@@ -1,0 +1,12 @@
+#mapid {
+  height: 40vh;
+  width: 90vw;
+}
+
+.leaflet-popup-content {
+  font-size: 2rem;
+}
+
+.leaflet-popup-content-wrapper {
+  border: solid yellow 3px;
+}
