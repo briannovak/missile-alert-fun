@@ -11,7 +11,7 @@
 
     <div id="options">
 
-      <div class="team-choice">
+      <div class="team-choice" id="temp">
         <label for="mode">Select Game Mode:</label>
         <select id="mode" name="mode">
           <option class="" value="1">Solo Mission</option>
@@ -22,31 +22,32 @@
       </div>
 
       <div class="slide-bar">
-        <label for="timeRange">Select mission duration:</input>
         <div>
-          <p><span id="time-display"></span> Hours</p>
-          <input type="range" min="1" max="10" value="2" class="slider" id="timeRange">
+          <label for="timeRange">Select mission duration:</input>
+          <input type="range" min="60" max="180" value="60" class="slider" id="timeRange">
         </div>
+        <p><span id="time-display"></span>:00 Minutes</p>
       </div>
 
       <div class="slide-bar">
-        <label for="distance">Select Distance:</label>
         <div>
-          <p><span id="distance-display"></span> Miles</p>
+          <label for="distance">Select Distance:</label>
           <input type="range" min="1" max="10" value="2" class="slider" id="mileRange">
         </div>
+        <p><span id="distance-display"></span> Miles</p>
       </div>
 
       <div class="slide-bar">
-        <label for="complexity">Select Complexity:</label>
         <div>
-          <p><span id="complexity-display"></span> Difficulties</p>
+          <label for="complexity">Select Complexity:</label>
           <input type="range" min="1" max="10" value="2" class="slider" id="complexityRange">
         </div>
+        <p><span id="complexity-display"></span> Difficulties</p>
       </div>
+
+      <a href="game.html">LAUNCH!</a>
     </div>
 
-    <a href="game.html">LAUNCH!</a>
 
     <script defer src="menu.js"></script>
   </body>
