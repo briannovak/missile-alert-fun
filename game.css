@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5c933d950b53422d1462239e497fc1b7cad87d96
 #mapid {
   height: 40vh;
   width: 90vw;
@@ -9,6 +13,14 @@
 
 .leaflet-popup-content-wrapper {
   border: solid yellow 3px;
+<<<<<<< HEAD
+=======
+}
+
+span {
+  color: red;
+  font-size: 1.2rem;
+>>>>>>> 5c933d950b53422d1462239e497fc1b7cad87d96
 }
 
 span {
@@ -17,9 +29,17 @@ span {
   }
 
 .timer-container {
+<<<<<<< HEAD
     padding: .6rem;
     background-color: black;
     border-color: yellow;
     color: yellow;
     align-self: center
+=======
+  padding: .6rem;
+  background-color: black;
+  border-color: yellow;
+  color: yellow;
+  align-self: center
+>>>>>>> 5c933d950b53422d1462239e497fc1b7cad87d96
 }
