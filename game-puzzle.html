@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title></title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 	  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+ 	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ 	  <title>Missile Alert Fun</title>
     <link rel="stylesheet" href="./game.css">
   </head>
   <body>
     <main>
       <div>Countdown to missile launch: <span id="time">60:00</span></div>
-      <form class="puzzle hidden" action="/#" method="post">
-        <label>Question:</label><p>How many commemorative bricks are the plaza on the southwest side of coors field?</p><br>
+      <form class="puzzle hidden center-align" action="/#" method="post">
+        <label>Question:</label><p class="center-align">How many commemorative bricks are the plaza on the southwest side of coors field?</p><br>
         <label>Answer:</label>
         <textarea id="message" name="message"></textarea>
         <input type="submit" id="submit" value="Submit Answer">
       </form>
-      <p class="response"></p>
+      <p class="response center-align"></p>
     </main>
     <script src="./game.js"></script>
   </body>
