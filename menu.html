@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css"
+    <title>Missle Alert, Go!</title>
+  </head>
+  <body>
+    <div class="team-choice">
+      <label for="mode">Select Game Mode:</label>
+      <select id="mode" name="mode">
+        <option class="" value="1">Solo Mission</option>
+        <option class="" value="2">Head to Head Mission</option>
+        <option class="" value="3">Team Mission</option>
+        <option class="" value="4">Team vs. Team Mission</option>
+      </select>
+    </div>
+
+    <div class="slide-bar">
+      <label for="timeRange">Select mission duration:</input>
+      <div>
+        <p><span id="time-display"></span> Hours</p>
+        <input type="range" min="1" max="10" value="2" class="slider" id="timeRange">
+      </div>
+    </div>
+
+    <div class="slide-bar">
+      <label for="distance">Select Distance:</label>
+      <div>
+        <p><span id="distance-display"></span> Miles</p>
+        <input type="range" min="1" max="10" value="2" class="slider" id="mileRange">
+      </div>
+    </div>
+
+    <div class="slide-bar">
+      <label for="complexity">Select Complexity:</label>
+      <div>
+        <p><span id="complexity-display"></span> Difficulties</p>
+        <input type="range" min="1" max="10" value="2" class="slider" id="complexityRange">
+      </div>
+    </div>
+
+    <a href="game.html">LAUNCH!</a>
+
+    <script defer src="menu.js"></script>
+  </body>
+</html>
